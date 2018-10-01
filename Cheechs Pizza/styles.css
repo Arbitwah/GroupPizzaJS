@@ -12,4 +12,8 @@ body{
 
 #btn btn-primary{
     float: right;
+
+}
+.noflex{
+    display: inline !important;
 }

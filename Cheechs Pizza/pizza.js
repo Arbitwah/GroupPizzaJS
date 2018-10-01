@@ -11,7 +11,9 @@ function onLoad(){
 }
 
 function grabInput(){
-    
+    var tabName = document.getElementById("inputName tabName").value;
+    var phoneNum = document.getElementById("inputPhone pNum").value;
+    var selectedPizza = document.getElementById("inputState selectPizza").options[selectedIndex].value;
 }
 window.addEventListener("load",onLoad);
 window.addEventListener("click", grabInput);
