@@ -5,11 +5,13 @@ h1{
     text-shadow: 3px 2px white;
     font-style: italic;
     font-family: "Times New Roman", Times, serif;
+    font-size: 48px;
 }
 body{
-    background-color: gray;
+    background-color: lightgray;
 }
 
+<<<<<<< HEAD
 #btn btn-primary{
     float: right;
 
@@ -17,3 +19,5 @@ body{
 .noflex{
     display: inline !important;
 }
+=======
+>>>>>>> 657acd9c1214c4d228e4656aebcdfbb73ce09f4c
