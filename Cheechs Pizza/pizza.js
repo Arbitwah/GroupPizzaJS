@@ -10,4 +10,8 @@ function onLoad(){
     }
 }
 
+function grabInput(){
+    
+}
 window.addEventListener("load",onLoad);
+window.addEventListener("click", grabInput);
