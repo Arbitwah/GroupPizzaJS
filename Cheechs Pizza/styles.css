@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 2px white;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+    background-color: gray;
+}
+
+#btn btn-primary{
+    float: right;
+}
