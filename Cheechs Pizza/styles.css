@@ -25,7 +25,7 @@ input[type=text], select, textarea {
     resize: vertical 
 }
 
-input[type = email]{
+input[type = tel]{
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc; 
@@ -38,7 +38,7 @@ input[type = email]{
 
 
 button[type=button] {
-    background-color: #4CAF50;
+    background-color:red;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -48,7 +48,7 @@ button[type=button] {
 
 
 button[type=button]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
 
 

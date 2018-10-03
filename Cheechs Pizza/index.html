@@ -14,10 +14,10 @@
         <form>
       
           <label for="fullname">Full Name</label>
-          <input type="text" id="tabName" name="fullname" placeholder="Your full name..">
+          <input type="text" id="Name" name="fullname" placeholder="Your full name..">
       
-          <label for="email">Email</label>
-          <input type="email" id="pNum" name="email" placeholder="example@gmail.com">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="pNum" name="phone" placeholder="(417)000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
       
           <label for="number">Number of Pizza's</label>
           <select id="PizzaNumber" name="number">
@@ -26,11 +26,11 @@
           <select id="selectPizza" name="toppings">
           </select>
       
-          <button id="btnPress" type="button">Submit</button>
+          <button id="btnPress" type="button">Place Order</button>
           <br>
           <br>
           <label for="subject">Order Details</label>
-          <textarea id="OrderOut" name="subject" type="text"  style="height:200px"></textarea>
+          <textarea id="OrderOut" name="subject" type="text"  style="height:200px" readonly></textarea>
       
 
       
