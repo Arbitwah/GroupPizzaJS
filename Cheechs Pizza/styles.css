@@ -8,7 +8,9 @@ h1{
     font-size: 48px;
 }
 body{
-    background-color: lightgray;
+    background-image: url(pizza.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
