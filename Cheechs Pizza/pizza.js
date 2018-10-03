@@ -28,9 +28,9 @@ function grabInput(){
      Customer Phone Number: ${phoneNum}\n
      Specialty Pizza Selection: ${selectedPizza}\n
      Number of Pizza's Ordered: ${PizzaNumber}\n
-     Price Per Pizza: ${PizzaPrice}\n
-     Tax: ${tax}\n
-     Total:${parseFloat(total.toFixed(2))}\n`;
+     Price Per Pizza: $${PizzaPrice}\n
+     Tax: $${tax}\n
+     Total: $ ${parseFloat(total.toFixed(2))}\n`;
 
     return false;
 
