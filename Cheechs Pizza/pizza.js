@@ -29,7 +29,7 @@ function grabInput(){
      Specialty Pizza Selection: ${selectedPizza}\n
      Number of Pizza's Ordered: ${PizzaNumber}\n
      Price Per Pizza: $${PizzaPrice}\n
-     Tax: ${tax}%\n
+     Tax: ${tax}% = $${parseFloat((PizzaNumber * PizzaPrice) *(tax/100)).toFixed(2)}\n
      Total: $ ${parseFloat(total.toFixed(2))}\n`;
 
     return false;
